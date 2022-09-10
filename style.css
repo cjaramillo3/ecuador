@@ -1,0 +1,35 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: #FFFDD0;    
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header_img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+header img {
+    width: 80px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 20px;
+    flex: 1;
+}
+
+a{
+    color: #E49B0F;
+    text-decoration: none;
+}
